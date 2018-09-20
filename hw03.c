@@ -24,7 +24,7 @@ int main() {
 
 	//6
 	for(int i = 0; i < 10; i++) {
-		*(ray_separate + 8 - i) = *(ray_original + i);
+		*(ray_separate + 9 - i) = *(ray_original + i);
 	}
 
 	//7
