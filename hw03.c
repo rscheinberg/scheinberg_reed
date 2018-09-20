@@ -14,7 +14,7 @@ int main() {
 	ray_original[9] = 0;
 
 	//4
-	for(int i = 0; i < 9; i++) {
+	for(int i = 0; i < 10; i++) {
 		printf("The value at position %d in array_original is %d \n", i, ray_original[i]);
 	}
 	printf("\n");
@@ -28,7 +28,7 @@ int main() {
 	}
 
 	//7
-	for(int i = 0; i < 9; i++) {
+	for(int i = 0; i < 10; i++) {
 		printf("The value at position %d in array_separate is %d \n", i, ray_separate[i]);
 
 	}
